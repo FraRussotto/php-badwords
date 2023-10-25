@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.css" integrity="sha512-r0fo0kMK8myZfuKWk9b6yY8azUnHCPhgNz/uWDl2rtMdWJlk7gmd9socvGZdZzICwAkMgfTkVrplDahQ07Gi0A==" crossorigin="anonymous"/>
+
+  <title>php-badwords</title>
+</head>
+<body>
+  <div class="container my-3">
+    <h1 class="title text-center">Hello PHP</h1>
+    <form action="php-badwords.php" method="GET">
+      <div class="input-group my-3">
+        <textarea class="form-control" aria-label="With textarea" name="text"></textarea>
+        <div class="input-group my-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">Insert a secret word</span>
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="secret_word">
+        </div>
+          <button type="submit" class="btn btn-primary">Invio</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
